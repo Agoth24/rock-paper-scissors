@@ -8,20 +8,6 @@ function getComputerChoice() {
   }
   return "scissors";
 }
-
-// function getHumanChoice() {
-//   let input = "";
-
-//   while (
-//     input.toLowerCase() != "rock" &&
-//     input.toLowerCase() != "paper" &&
-//     input.toLowerCase() != "scissors"
-//   ) {
-//     input = prompt("Rock, Paper, or Scissors?");
-//   }
-//   return input;
-// }
-
 // UI ELEMENTS
 const rockButton = document.querySelector(".rock");
 const paperButton = document.querySelector(".paper");
