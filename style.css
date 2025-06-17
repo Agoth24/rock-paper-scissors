@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+body {
+  padding: 10vh 10vw;
+  background-color:antiquewhite;
+}
+
+button {
+  font-size: 36px;
+  font-weight: 600;
+  background-color: navy;
+  color: #F9FAF8;
+  padding: 10px 20px;
+  border-style: none;
+  border-radius: 10px;
+  ;
+}
+button:hover {
+    background-color: rgb(12, 19, 39);
+    transition-duration: 600ms;
+}
+p {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 10px 0px;
+}
+.game-buttons {
+  display: flex;
+  gap: 5vw;
+  justify-content: center;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0px;
+}
+
+.game-score {
+  display: flex;
+  justify-content: center;
+
+}
